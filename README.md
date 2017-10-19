@@ -17,6 +17,7 @@ Enter comma separated values or scan the barcodes below to add them to the datab
 
 ```
 Simpson, 742 Evergreen Terrace,, Springfield, UN, 12345
+![Simpson]( FirstPass/FirstPass/barcodes/Simpson.gif )
 Seinfeld, 129 West 81st Street, Apartment 5A, New York, NY, 10024
 Tanner, 1882 Girard Street, ,San Francisco, CA, 94115
 ```
