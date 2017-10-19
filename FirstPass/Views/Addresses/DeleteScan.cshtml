@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Create";
+}
+
+<h2>Delete</h2>
+
+<hr />
+<div class="row">
+    <div class="col-md-10">
+        <form asp-action="DeleteScan" asp-controller="Addresses">
+            <div class="form-group">
+                <label class="control-label">Address to Delete</label>
+                <input type="text" class="form-control" name="fullAddress" 
+                       placeholder="Scan Address to Delete" 
+                       pattern="[^,]+,[^,]+,[^,]+,[^,]+,[^,]+,\s*[0-9]+" autofocus required
+                       title="Must be six comma separated values. Name, Address1, Address2, City, State, 12345"/>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Delete" class="btn btn-default" />
+                @TempData["Message"]
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
