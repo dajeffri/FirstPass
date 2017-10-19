@@ -17,10 +17,16 @@ Enter comma separated values or scan the barcodes below to add them to the datab
 
 ```
 Simpson, 742 Evergreen Terrace,, Springfield, UN, 12345
-![Simpson]( FirstPass/FirstPass/barcodes/Simpson.gif )
 Seinfeld, 129 West 81st Street, Apartment 5A, New York, NY, 10024
 Tanner, 1882 Girard Street, ,San Francisco, CA, 94115
 ```
+
+![Simpson](FirstPass/barcodes/Simpson.gif)
+
+![Seinfeld](FirstPass/barcodes/Seinfeld.gif)
+
+![Tanner](FirstPass/barcodes/Tanner.gif)
+
 ## Built With
 * [C#](https://docs.microsoft.com/en-us/dotnet/csharp/)
 * [.NET Core]( https://www.microsoft.com/net/core)
